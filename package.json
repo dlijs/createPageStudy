@@ -1,0 +1,26 @@
+{
+  "name": "@dlijs/createpage",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "npm publish --access=public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cblock": "lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/dlijs/createPageStudy.git"
+  },
+  "dependencies": {
+    "colors-cli": "^1.0.27",
+    "commander": "^8.1.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7",
+    "react": "^17.0.2"
+  }
+}
